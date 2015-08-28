@@ -22,8 +22,8 @@ public class POIModel {
 	public void openDataSource() throws SQLException {
 		database = dbHelper.getWritableDatabase();
 
-		clearData();
-		mockData();
+		// clearData();
+		// mockData();
 	}
 
 	private void clearData() {
